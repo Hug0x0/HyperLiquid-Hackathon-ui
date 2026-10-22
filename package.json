@@ -97,12 +97,8 @@
   "optionalDependencies": {
     "sharp": "^0.34.5"
   },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "19.0.10",
-      "@types/react-dom": "19.0.4",
-      "use-sync-external-store": "^1.2.2",
-      "next>postcss": "^8.5.31"
-    }
-  }
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@11.18.0"
 }
